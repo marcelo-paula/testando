@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.taxas h1 {
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+.taxas label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 16px;
+}
+
+.taxas select {
+    font-size: 18px;
+    padding: 8px;
+    margin-right: 16px;
+}
+
+.taxas button {
+    font-size: 18px;
+    padding: 8px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.taxas button:hover {
+    background-color: #0062cc;
+}
+
+.taxas ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.taxas li {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.taxas li::before {
+    content: '•';
+    margin-right: 8px;
+    color: #007bff;
+}
+
+.taxas{
+    padding: 100px;
+}
